@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Order</title>
+    
+</head>
+<body>
+    <!-- header -->
+    <center>
+        <header id="home">
+            <img src="https://thumbs2.imgbox.com/f9/8c/OVkmiNIM_t.jpg" alt="image host" width="80">
+            <h1>S&H Family</h1>
+            <h3>We make the complex, simple</h3>
+        </header>
+        <!-- nav -->
+        <nav>
+		    <a href="index.html#home">Home</a>
+		    <a href="index.html#about">About us</a>
+		    <a href="index.html#product">Products</a>
+		    <a href="index.html#contact">Contact</a>
+            <a href="#order">Order</a>
+        </nav>
+    </center>
+    <center><h2>Product Order</h2></center>
+    <center><img src="https://thumbs2.imgbox.com/99/52/a332C1tS_t.jpg" alt="banner" width="80%"></center>
+    <!-- form -->
+    <form action="form-processing" method="post">
+        <fieldset>
+            <label for="name">Full Name:</label>
+            <input type="text" name="full_name" id="name"/>
+            <br>
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email"/>
+            <br>
+            <label for="phone">Phone Number:</label>
+            <input type="text" name="phone" id="ph"/>
+            <br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" name="dob" id="dob"/>
+            <br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <label for="address">Address:</label>
+            <input type="text" name="address" id="address">
+            <br>
+            <label for="district-select">District:</label>
+            <select name="district" id="district-select">
+                <option value="district 1">District 1</option>
+                <option value="district 2">District 2</option>
+                <option value="district 3">District 3</option>
+                <option value="district 4">District 4</option>
+                <option value="district 5">District 5</option>
+            </select>
+            <br>
+            <label for="city-select">City:</label>
+            <select name="district" id="district-select">
+                <option value="Ho Chi Minh City">Ho Chi Minh City</option>
+                <option value="Hanoi City">Hanoi City</option>
+                <option value="Da Nang City">Da Nang City</option>
+            </select>
+        </fieldset>
+        <br>
+        <fieldset>
+            <label for="product-select">Products:</label>
+            <select name="product" id="product-select">
+                <option value="Polo-shirt">Polo-shirt</option>
+                <option value="T-shirt">T-Shirt</option>
+                <option value="Hoodie">Hoodie</option>
+                <option value="Style-Pants">Style Pant</option>
+                <option value="Shorts">Shorts</option>
+                <option value="Sweat-Pants">Sweat Pants</option>
+                <option value="Duffle Bag">Duffle Bag</option>
+                <option value="Hat">Hat</option>
+                <option value="Sun-glasses">Sun Glasses</option>
+            </select>
+            <br>
+            <label for="city-select">Choose Color:</label>
+            <br>
+            <input type="radio" id="color" name="selected-color" value="red">
+            <label for="red">Red</label><br>
+            <input type="radio" id="color" name="selected-color" value="green">
+            <label for="green">Green</label><br>
+            <input type="radio" id="color" name="selected-color" value="blue">
+            <label for="blue">Blue</label><br>
+        </fieldset>
+        <input type="submit" value="Order Now!">
+        
+    </form>
+    <!-- footer -->
+    <footer id="contact">
+        <h2>Contact</h2>
+        <table>
+            <tr>
+                <th>Address</th>
+                <th colspan="">Connect With Us</th>
+            </tr>
+            <tr>
+                <td rowspan="3">
+                    No.32/23<br>
+                    North Okkalapa, Yangon<br>
+                    09443388822<br>
+                    s&h@email.com
+                </td>
+                <td><a href="https://www.facebook.com"><img src="https://thumbs2.imgbox.com/d1/18/Nyfp0TY5_t.png" alt="facebook" width="50"></a></td>
+                <td>Facebook</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.instagram.com"><img src="https://thumbs2.imgbox.com/20/81/Vs7fIboO_t.png" alt="instagram" width="50"></a></td>
+                <td>Instagram</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.linkedin.com"><img src="https://thumbs2.imgbox.com/38/14/ATnq1Yts_t.png" alt="linkedin" width="50"></a></td>
+                <td>Linkedin</td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>
